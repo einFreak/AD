@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+946688038 source:g:\studium\ad\ad-Übung1\main.cpp
+	<iostream>
+	"Aufgabe1.h"
+	"Aufgabe2.h"
+
+946689738 g:\studium\ad\ad-Übung1\aufgabe1.h
+	<iostream>
+
+946691260 g:\studium\ad\ad-Übung1\aufgabe2.h
+	<iostream>
+	<iomanip>
+
+946695513 source:g:\studium\ad\ad_practise_1\main.cpp
+	<iostream>
+	<cstdlib>
+	"Aufgabe1.h"
+	"Aufgabe2.h"
+
+946695446 g:\studium\ad\ad_practise_1\aufgabe1.h
+	<iostream>
+
+946695775 g:\studium\ad\ad_practise_1\aufgabe2.h
+	<iostream>
+	<iomanip>
+
