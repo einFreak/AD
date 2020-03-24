@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="AD-Übung1" />
+		<Option title="AD-Uebung1" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -35,7 +35,10 @@
 		</Compiler>
 		<Unit filename="Aufgabe1.h" />
 		<Unit filename="Aufgabe2.h" />
+		<Unit filename="Aufgabe3.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="matrizen.cpp" />
+		<Unit filename="matrizen.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

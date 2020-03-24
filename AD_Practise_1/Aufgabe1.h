@@ -1,6 +1,6 @@
 #ifndef AUFGABE1_H_INCLUDED
 #define AUFGABE1_H_INCLUDED
-#include <iostream>
+
 using namespace std;
 
 void a1_ausgabe();

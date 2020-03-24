@@ -11,16 +11,25 @@
 	<iostream>
 	<iomanip>
 
-946695513 source:g:\studium\ad\ad_practise_1\main.cpp
+946692149 source:g:\studium\ad\ad_practise_1\main.cpp
 	<iostream>
 	<cstdlib>
+	<iomanip>
 	"Aufgabe1.h"
 	"Aufgabe2.h"
+	"Aufgabe3.h"
+	"matrizen.h"
 
-946695446 g:\studium\ad\ad_practise_1\aufgabe1.h
-	<iostream>
+946682016 g:\studium\ad\ad_practise_1\aufgabe1.h
 
-946695775 g:\studium\ad\ad_practise_1\aufgabe2.h
+946682016 g:\studium\ad\ad_practise_1\aufgabe2.h
+
+946694059 g:\studium\ad\ad_practise_1\aufgabe3.h
+	"matrizen.h"
+
+946693964 g:\studium\ad\ad_practise_1\matrizen.h
+
+946694280 source:g:\studium\ad\ad_practise_1\matrizen.cpp
+	"matrizen.h"
 	<iostream>
-	<iomanip>
 

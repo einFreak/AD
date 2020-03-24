@@ -1,7 +1,6 @@
 #ifndef AUFGABE2_H_INCLUDED
 #define AUFGABE2_H_INCLUDED
-#include <iostream>
-#include <iomanip>
+
 using namespace std;
 
 void a2_ausgabe();
@@ -31,12 +30,12 @@ int sieb (int schranke) {
     for (int streichen = 1; streichen < schranke; streichen++) {
         if (table[streichen] != 0)
         {
-            int test = table[streichen];
-            cout << test << " ";
+            int prim = table[streichen];
+            cout << prim << " ";
 
             for (int y = streichen+1; y < schranke; y++) {
                 int value = table[y];
-                int mod = value % test;
+                int mod = value % prim;
                 if (mod == 0)
                     table[y] = 0;
             }
