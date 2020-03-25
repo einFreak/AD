@@ -5,6 +5,7 @@ class matrizen
 {
     public:
         matrizen(unsigned int m_val, unsigned int n_val);
+        matrizen(const matrizen &oldMatrix);
         ~matrizen();
 
         unsigned int Getm();

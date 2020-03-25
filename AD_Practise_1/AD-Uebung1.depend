@@ -24,12 +24,15 @@
 
 946694932 g:\studium\ad\ad_practise_1\aufgabe2.h
 
-946694059 g:\studium\ad\ad_practise_1\aufgabe3.h
+946693426 g:\studium\ad\ad_practise_1\aufgabe3.h
+	<iostream>
+	<cstdlib>
+	<iomanip>
 	"matrizen.h"
 
-946684041 g:\studium\ad\ad_practise_1\matrizen.h
+946692715 g:\studium\ad\ad_practise_1\matrizen.h
 
-946684597 source:g:\studium\ad\ad_practise_1\matrizen.cpp
+946695887 source:g:\studium\ad\ad_practise_1\matrizen.cpp
 	"matrizen.h"
 	<iostream>
 	<cstdlib>

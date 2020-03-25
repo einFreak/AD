@@ -29,8 +29,23 @@ void a3_ausgabe() {
     Matrix2.Input();
     Matrix2.Print();
 
-    Matrix1.Add(Matrix2);
-    system("pause");
+    cout << "Rechenoperation wählen:" << endl << "1. Addition" << endl << "2. Multiplikation" << endl;
+    int op;
+    cin >> op;
+
+    switch (op) {
+    case 1:
+        Matrix1.Add(Matrix2);
+        break;
+    case 2:
+        Matrix1.Mult(Matrix2);
+        break;
+    default:
+        cout << "Keine gültige Operation gewählt - Abbruch" << endl;
+    }
+
+
+
 
 }
 
