@@ -35,3 +35,30 @@
 	<cstdlib>
 	<iomanip>
 
+1585120744 source:c:\studium\ad\ad_practise_1\main.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	"Aufgabe1.h"
+	"Aufgabe2.h"
+	"Aufgabe3.h"
+	"matrizen.h"
+
+1585120744 c:\studium\ad\ad_practise_1\aufgabe1.h
+
+1585120744 c:\studium\ad\ad_practise_1\aufgabe2.h
+
+1585125145 c:\studium\ad\ad_practise_1\aufgabe3.h
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	"matrizen.h"
+
+1585126478 c:\studium\ad\ad_practise_1\matrizen.h
+
+1585124983 source:c:\studium\ad\ad_practise_1\matrizen.cpp
+	"matrizen.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+

@@ -12,6 +12,8 @@ class matrizen
         int Init();
         void Print();
         int Input();
+        int Add(matrizen A);
+        matrizen Mult(matrizen A);
 
     private:
         int** matrix; //Pointer auf weitere Pointer da Doppeltes Array

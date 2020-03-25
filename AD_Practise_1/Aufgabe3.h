@@ -17,7 +17,7 @@ void a3_ausgabe() {
     cin     >> n;
     cout    << endl;
     matrizen Matrix1(m, n);
-    Matrix1.Init();
+    Matrix1.Input();
     Matrix1.Print();
 
     cout    << "Matrix2 (M x N) bestimmen:" << endl << "M: ";
@@ -28,6 +28,8 @@ void a3_ausgabe() {
     matrizen Matrix2(m, n);
     Matrix2.Input();
     Matrix2.Print();
+
+    Matrix1.Add(Matrix2);
     system("pause");
 
 }
