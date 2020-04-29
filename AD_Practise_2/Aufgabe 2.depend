@@ -25,3 +25,18 @@
 	<string>
 	<cstring>
 
+1588190497 source:c:\studium\ad\ad_practise_2\main.cpp
+	<iostream>
+	"regmach.h"
+
+1588190630 c:\studium\ad\ad_practise_2\regmach.h
+	<iostream>
+	<fstream>
+	<string>
+
+1588196444 source:c:\studium\ad\ad_practise_2\regmach.cpp
+	"regmach.h"
+	<string>
+	<cstring>
+	<stdlib.h>
+

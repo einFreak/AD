@@ -11,17 +11,14 @@ class Regmach
 {
     public:
         Regmach(std::string new_filename);
-
         virtual ~Regmach();
-
-        unsigned int getline();
-
-        int startdecode();
+        int calculate (char *c_pointer);
+        int decode();
 
     protected:
 
     private:
-        int speicher[10]
+        int speicher[10];
         unsigned int line_count;
         string reg_file;
 };
