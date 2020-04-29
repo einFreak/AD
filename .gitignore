@@ -33,3 +33,6 @@
 
 #CodeBlocks
 *.layout
+
+# Text Files
+*.pdf

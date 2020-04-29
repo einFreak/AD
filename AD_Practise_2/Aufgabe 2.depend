@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1585782653 source:p:\desktop\aufgabe 2\main.cpp
+	<iostream>
+	"regmach.h"
+
+1585782184 p:\desktop\aufgabe 2\regmach.h
+	<iostream>
+	<fstream>
+	<string>
+
+1585782585 source:p:\desktop\aufgabe 2\regmach.cpp
+	"regmach.h"
+
+1588171734 source:g:\studium\ad\ad_practise_2\main.cpp
+	<iostream>
+	"regmach.h"
+
+1588170405 g:\studium\ad\ad_practise_2\regmach.h
+	<iostream>
+	<fstream>
+	<string>
+
+1588171590 source:g:\studium\ad\ad_practise_2\regmach.cpp
+	"regmach.h"
+	<string>
+	<cstring>
+
