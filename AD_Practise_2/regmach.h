@@ -12,14 +12,18 @@ class Regmach
     public:
         Regmach(std::string new_filename);
         virtual ~Regmach();
-        int calculate (char *c_pointer);
         int decode();
 
     protected:
 
     private:
-        int speicher[10];
+        int calculate (char *c_pointer);
+        int HexToInt(char value);
+
+        int PC;
+        int speicher[10] = {0};
         unsigned int line_count;
+        unsigned int charcount;
         string reg_file;
 };
 

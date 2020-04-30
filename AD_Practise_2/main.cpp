@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
     string filename;
+    cout << "Enter filename: ";
     cin >> filename;
     Regmach test_reg(filename);
 //    Regmach test_reg("test.txt");
