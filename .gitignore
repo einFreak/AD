@@ -36,3 +36,7 @@
 
 # Text Files
 *.pdf
+
+#Folder
+*/bin
+*/obj
