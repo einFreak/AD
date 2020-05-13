@@ -33,6 +33,7 @@
 
 #CodeBlocks
 *.layout
+*.depend
 
 # Text Files
 *.pdf
@@ -40,3 +41,4 @@
 #Folder
 */bin
 */obj
+*/lösungsvorschläge
