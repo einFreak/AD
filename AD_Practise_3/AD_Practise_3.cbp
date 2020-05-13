@@ -32,7 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="MaxTeilsum.cpp" />
+		<Unit filename="MaxTeilsum.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="sort_algo.cpp" />
+		<Unit filename="sort_algo.h" />
+		<Unit filename="sort_test.cpp" />
+		<Unit filename="sort_test.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
