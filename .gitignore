@@ -35,8 +35,10 @@
 *.layout
 *.depend
 
-# Text Files
+# Text etc Files
 *.pdf
+*.7z
+*.zip
 
 #Folder
 */bin
