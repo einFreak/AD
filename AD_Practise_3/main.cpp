@@ -23,8 +23,8 @@ int main()
     QuickSort      (a, 0, a_length-1);
     print_array(a, a_length);
 
-    TestQuickSort();
-    TestBubbleSort();
+    //TestQuickSort();
+    //TestBubbleSort();
 
     int **arr_p;
     int arr[3][4] = {

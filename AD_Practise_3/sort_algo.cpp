@@ -92,9 +92,14 @@ int SelectionSort (int a[], int lenght) {
 }
 
 void PreparePartition (int a[], int first, int last, int &p) {
+    //randomize pivot element
+    int arand;
+    arand = rand() % last;
+    swap(a[first], a[arand]);
+
     //Pivot Element
     int pivot = a[first];
-    //not working - dont know why atm int pivot = a[rand() % last-1];
+
     p = first-1; //Pointer vor Piv_Element
 
     for (int i = first; i <= last; i++) {
