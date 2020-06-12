@@ -73,6 +73,7 @@ void linked_list::Print() {
 
 
 list_element *linked_list::Partition_List(list_element *l_head, list_element *l_tail, list_element **new_head, list_element **new_tail) {
+    std::cout<<"Entering PL"<<std::endl;
     list_element *pivot = l_tail;
     list_element *prev  = NULL;
     list_element *cur   = l_head;
@@ -120,12 +121,12 @@ list_element *linked_list::Partition_List(list_element *l_head, list_element *l_
 list_element *linked_list::Quicksort_List (list_element *q_head, list_element *q_tail) {
 
 
+    //wenn nur ein Element return bzw sortiert
     if (!q_head || q_head == q_tail)
         return q_head;
 
 
     linked_list new_liste;
-
     //Partition the list
     list_element *pivot = Partition_List(q_head, q_tail, &new_liste.head, &new_liste.tail);
 
@@ -157,6 +158,8 @@ list_element *linked_list::Quicksort_List (list_element *q_head, list_element *q
 }
 
 void linked_list::Quicksort_List () {
+    std::cout<<"Entering QS"<<std::endl;
     Quicksort_List(head, tail);
+    std::cout<<"Exit QS"<<std::endl;
     return;
 }
